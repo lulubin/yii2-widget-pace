@@ -1,0 +1,25 @@
+{
+    "name": "lulubin/yii2-widget-pace",
+    "description": "An Yii2 widget for automatic web page progress bar",
+    "keywords": ["yii2", "extension", "widget", "pace"],
+    "homepage": "https://github.com/lulubin/yii2-widget-pace",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lulubin",
+            "email": "452936616@qq.com",
+            "homepage": "https://lulublog.cn/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/pace": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "lulubin\\pace\\": ""
+        }
+    }
+}
